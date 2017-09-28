@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Alarm
+comment0.text=\r\n\ The\ Alarm\ class\ creates\ an\ alarm\ for\ a\ standard\ 12\ hour\ clock\ \r\n\ It\ will\ allow\ the\ user\ to\ set\ the\ alarm\ time,\ get\ the\ alarm\ time,\ \r\n\ and\ to\ check\ whether\ the\ alarm\ is\ turned\ on\ or\ off.\r\n\r\n\ @author\ Christophe\ Tran\r\n\ @version\ 2017.09.22\r\n
+comment1.params=
+comment1.target=Alarm()
+comment1.text=\r\n\ Constructor\ for\ class\ Alarm\ objects.\ This\ constructor\ creates\ a\ new\ alarm\r\n\ set\ to\ 12\:00\ am\ and\ the\ alarm\ off.\r\n
+comment2.params=hour\ minute\ timeState\ alarmChoice
+comment2.target=Alarm(int,\ int,\ java.lang.String,\ java.lang.Boolean)
+comment2.text=\r\n\ Constructor\ for\ class\ Alarm\ objects.\ This\ constructor\ creates\ a\ new\ alarm\r\n\ at\ the\ specified\ time\ and\ whether\ the\ alarm\ is\ on\ or\ off,\ specified\ by\ the\ \r\n\ parameters.\r\n\ \r\n\ @param\ hour\ Hour\ of\ the\ alarm\r\n\ @param\ minute\ Minute\ of\ the\ alarm\r\n\ @param\ timeState\ a.m\ or\ p.m\ of\ the\ alarm\r\n\ @param\ alarmChoice\ Whether\ the\ alarm\ is\ on\ or\ off\r\n
+comment3.params=hour\ minute\ timeState
+comment3.target=void\ setTime(int,\ int,\ java.lang.String)
+comment3.text=\r\n\ Sets\ the\ time\ of\ the\ alarm\ to\ the\ specified\ hour\ and\ minute.\r\n\ \r\n\ @param\ hour\ The\ hour\ of\ the\ alarm\r\n\ @param\ minute\ The\ minute\ of\ the\ alaram\r\n\ @param\ timeState\ a.m.\ or\ p.m.\ for\ the\ alarm\r\n
+comment4.params=
+comment4.target=void\ turnOn()
+comment4.text=\r\n\ Turns\ the\ alarm\ on.\r\n
+comment5.params=
+comment5.target=void\ turnOff()
+comment5.text=\r\n\ Turns\ the\ alarm\ off.\r\n
+comment6.params=
+comment6.target=java.lang.String\ getTime()
+comment6.text=\r\n\ Returns\ the\ time\ of\ the\ alarm\ in\ the\ format\ HH\:MM.\r\n\ \r\n\ @return\ The\ time\ of\ the\ alarm\r\n
+comment7.params=
+comment7.target=java.lang.Boolean\ isSet()
+comment7.text=\r\n\ Checks\ if\ the\ alarm\ is\ on\ or\ off.\r\n\ \r\n\ @return\ true\ if\ alarm\ is\ on,\ false\ otherwise\r\n
+numComments=8
